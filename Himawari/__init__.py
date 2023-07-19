@@ -27,7 +27,7 @@ import logging
 import os
 import sys
 import time
-import spamwatch
+
 import httpx
 import telegram.ext as tg
 from redis import StrictRedis

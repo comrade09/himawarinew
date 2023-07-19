@@ -37,6 +37,7 @@ from telegram.utils.helpers import escape_markdown
 import Himawari.modules.sql.users_sql as sql
 from Himawari import (
     BOT_NAME,
+    DB_URL
     BOT_USERNAME,
     SUPPORT_CHAT,
     TOKEN,

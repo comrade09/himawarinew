@@ -43,7 +43,7 @@ from Himawari import (
     updater,
 )
 
-from sample_config import *
+from Himawari import sample_config
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!

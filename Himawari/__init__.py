@@ -102,7 +102,7 @@ if ENV:
     URL = os.environ.get("URL", None)
     API_ID = os.environ.get("API_ID", None)
     API_HASH = os.environ.get("API_HASH", None)
-    DB_URL = os.environ.get("DATABASE_URL", None)
+    DB_URI = os.environ.get("DATABASE_URL", None)
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", None))
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get(
@@ -155,7 +155,7 @@ else:
     BOT_API_URL = Config.BOT_API_URL
     ARQ_API_URL = Config.ARQ_API_URL
     ARQ_API_KEY = Config.ARQ_API_KEY
-    DB_URL = Config.POST_DATABASE_URI
+    DB_URI = Config.POST_DATABASE_URI
     STRICT_GBAN = Config.STRICT_GBAN
     TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
     LOAD = Config.LOAD

@@ -36,14 +36,17 @@ from telegram.utils.helpers import escape_markdown
 
 import Himawari.modules.sql.users_sql as sql
 from Himawari import (
+    BOT_NAME,
+    BOT_USERNAME,
+    SUPPORT_CHAT,
+    TOKEN,
+    UPDATES_CHANNEL,
     StartTime,
     dispatcher,
     pgram,
     telethn,
     updater,
 )
-
-from Himawari import sample_config
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!

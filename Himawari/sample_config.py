@@ -50,7 +50,7 @@ class Config(object):
     API_HASH = "45aabfacadsdsds"  # api hash from my.telegram.org
     # mongo database link (necessary)
     MONGO_DB_URL = "mongodb+srv://mesdsdwhidsdsgodb.net/?retryWrites=true&w=majority"
-    DB_URL = "postgresql://wdsdsw@ldsas/wasassddb"  # postgres sql database link
+    
     # redis database url from redislabs.com
     REDIS_URL = "redis://dsds3@reddsdsuth-1-1.ec2.cloud.redislabs.com:154dsd/Arssddsdsb"
     TOKEN = "54dssdV8e59Odo"  # bot token from @BotFather
